@@ -21,8 +21,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "CodeSync",
-  description: "Developers: Priyanshu Jain, Vanshit Bassi, Om Sharma",
+  title: "CodeSync-Remote Interview Platform",
+  description: "Open Source Repo. Developers: Priyanshu Jain, Vanshit Bassi, Om Sharma",
 };
 
 export default function RootLayout({
@@ -38,7 +38,6 @@ export default function RootLayout({
             attribute="class"
             defaultTheme="system"
             enableSystem
-            disableTransitionOnChange
         >
           <SignedIn>
             <div className="min-h-screen">
